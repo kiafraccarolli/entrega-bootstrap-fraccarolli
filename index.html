@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-light row">
+        <div class="container-fluid">
+          <a class="navbar-brand col-7" href="#">BeautyHome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mision-y-vision.html">Misión y Visión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto"> Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- main -->
+    <section class="d-flex align-items-center row section1">
+            <img src="./imagenes-proyecto/foto-cara.png" alt="" class=" position-relative col-9" >
+            <div class="position-absolute divLogo">
+                <img src="./imagenes-proyecto/foto-logo.png" alt="" class="fotoLogo">
+            </div>
+        </section>
+    <div class="row">
+        <section class=" col-lg-5 d-flex section2 justify-content-center align-items-center">
+            <img src="./imagenes-proyecto/foto-historia.png" alt="" class="position-relative fotoHistoria">
+        </section>
+        <section class="d-flex-column col-lg-7 section3 py-4">
+                <h2 class="tituloHistoria" >NUESTRA HISTORIA</h2>
+                <P class="mx-5 parrafoIndex">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas mollitia assumenda amet quasi quod obcaecati dignissimos aspernatur ea excepturi deserunt, molestias natus ipsum modi, recusandae sequi nesciunt quibusdam deleniti neque!
+                Cumque eos eaque ad provident incidunt ullam in, aliquid est itaque commodi consequatur maiores ab accusantium deleniti magni suscipit architecto doloremque harum quisquam molestiae facere qui dolores omnis! Numquam, facere?
+                Perspiciatis sunt, beatae reprehenderit, ipsam nulla voluptates debitis blanditiis alias id reiciendis soluta delectus fugit recusandae magni consequuntur, doloremque tempore vel veniam non omnis autem. Magni nihil rem cum recusandae?
+                Itaque accusamus natus vel!</P>
+        </section>
+    </div>
+    <section class="row d-flex justify-content-between galeria pt-3">
+       <div class="col-lg-4 d-flex justify-content-center">
+        <h3 class="tituloGaleria">Seguinos en Instagram!</h3>
+        </div>
+       <div class="col-lg-4 d-flex justify-content-center"> 
+        <h3 class="tituloGaleria">@beautyhome_</h3>
+    </div>
+    </section>
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner cajaChica container-fluid col-sm-12">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <div class="d-flex justify-content-around">
+                <img src="./imagenes-proyecto/foto-galeria1.png" class="foto1" alt="...">
+                <img src="./imagenes-proyecto/foto-galeria2.png" class="foto2" alt="...">
+                <img src="./imagenes-proyecto/foto-galeria3.png" class="foto3" alt="...">
+            </div>
+        </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="d-flex justify-content-around">
+                <img src="./imagenes-proyecto/foto-galeria4.png" class="foto4" alt="...">
+                <img src="./imagenes-proyecto/foto-galeria2.png" class="foto2" alt="...">
+                <img src="./imagenes-proyecto/foto-galeria1.png" class="foto1" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-around">
+            <img src="./imagenes-proyecto/foto-galeria2.png" class="foto2" alt="...">
+            <img src="./imagenes-proyecto/foto-galeria4.png" class="foto4" alt="...">
+            <img src="./imagenes-proyecto/foto-galeria3.png" class="foto3" alt="...">
+          </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+        <h2 class="col-xs-12 tituloFooter d-flex justify-content-center py-2">Tenes alguna duda? Contactános!</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-4 col-md-5 col-xs-12 align-items-strech"> 
+                <form action="#" method="get" class="d-flex flex-column justify-content-between cajaFormulario mx-5 " >
+                    <input type="text" placeholder="nombre completo" name="nombre-completo"  class="textoFantasma">
+                    <input type="email" placeholder="example@gmial.com" class="textoFantasma">
+                    <textarea name="comentario" placeholder="escribínos tu comentario!" id="" cols="30" rows="8" class="textoFantasma"></textarea>
+                    <input type="submit" class="botonSubmit" value="ENVIAR">
+                    <label for="">
+                        <input type="checkbox">
+                        <span>Suscribirme al newsletter</span>
+                    </label>
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 cajaContacto1 footerContacto">
+                 <div class="d-flex flex-row justify-content-center align-items-center">
+                    <div class="iconosRedes">
+                        <img src="./imagenes-proyecto/facebook.png" alt="logo Facebook" class="icono1">    
+                        <img src="./imagenes-proyecto/instagram.png" alt="logo Instagram" class="icono1">    
+                        <img src="./imagenes-proyecto/whatsapp.png" alt="logo Whatsapp" class="icono1">    
+                        <img src="./imagenes-proyecto/email.png" alt="logo Mail" class="icono1">        
+                    </div>
+                    <ul class="mt-1">  
+                        <li>Facebook: Beauty Home Official</li>
+                        <li>Instagram: @Beautyhome_</li>
+                        <li>Whatsapp: +54 1512345678</li>
+                        <li>Mail: beautyhome@clientes.com.ar</li>            
+                    </ul>
+                    
+                    </div> 
+                        <h3 class="tituloHorarios">HORARIOS DE ATENCIÓN</h3>
+                        <ol class="horarios">
+                            <li>Lunes a Viernes- 9 a 12pm y 14 a 19pm</li>
+                            <li>Sábados- 9 a 12pm</li>
+                        </ol>
+                    </div>
+        </div>
+        
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
