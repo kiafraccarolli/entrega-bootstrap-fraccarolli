@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BeautyHome</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./imagenes-proyecto/favicon.png">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BeautyHome</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./imagenes-proyecto/favicon.png">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
 <body>
+    <!-- header -->
     <header>
         <nav class="navbar position-fixed navbar-expand-lg bg-light row m-0">
             <div class="container-fluid">
-            <a class="navbar-brand  col-xxl-7 col-xl-6 col-lg-5" href="#">BeautyHome</a>
+            <a class="navbar-brand col-xxl-7 col-xl-6 col-lg-5" href="#">BeautyHome</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,31 +40,32 @@
         </nav>
     </header>
     <!-- main -->
-    <main>
-        <section class="row p-0">
-            <div class="col-lg-6 col-md-12 mt-5 p-0 ">
-                <img src="./imagenes-proyecto/foto-mision1.png" alt="" class="w-100">
-            </div>
-            <div class="col-lg-6 col-md-12 p-0 d-flex flex- flex-column justify-content-center align-items-center textoMision">
-                <h2 class="tituloMision mt-5">MISIÓN:</h2>
-            <p class=" mb-5 text-center px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa dolore repellendus cumque veritatis harum vel perferendis itaque debitis totam, illo omnis ex! Ullam, numquam error consectetur esse vero facere?
-                Possimus provident saepe temporibus repudiandae nulla explicabo. Iste vel dolore repudiandae expedita adipisci blanditiis ipsum eos iure ipsa placeat pariatur eius fugit, voluptates a accusantium animi hic libero!.</p>
-            </div>
-        </section>
-        <section class="row p-0 m-0 d-flex flex-row-reverse">
-            <div class="col-lg-6 col-md-12 p-0">
-                <img src="./imagenes-proyecto/foto-mision2.png" alt="" class="w-100">
-            </div>
-            <div class="col-lg-6 col-md-12 p-0 d-flex flex- flex-column justify-content-center align-items-center textoVision">
-                <h2 class="tituloMision mt-5">VISIÓN:</h2>
-            <p class=" mb-5  text-center px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa dolore repellendus cumque veritatis harum vel perferendis itaque debitis totam, illo omnis ex! Ullam, numquam error consectetur esse vero facere?
-                Possimus provident saepe temporibus repudiandae nulla explicabo. Iste vel dolore repudiandae expedita adipisci blanditiis ipsum eos iure ipsa placeat pariatur eius fugit, voluptates a accusantium animi hic libero!.</p>
-            </div>
-            
-        </section>
-    </main>
-     <!-- footer -->
-     <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+    <section class="row p-0 pt-5 tituloServicios">
+       <div class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="mt-3">NUESTRAS ESPECIALIDADES:</h2>
+        <select name="servicios" id="" class=" col-lg-2 col-sm-3 col-6 mb-3">
+          <option value="pestanas">pestañas</option>
+          <option value="depilacion">depilación</option>
+          <option value="unas">uñas</option>
+          <option value="cejas">cejas</option>
+          <option value="peinados">peinados</option>
+        </select>
+    </div>
+    </section>
+    <section>
+        <div class="row p-0 d-flex flex-row justify-content-center ">
+            <img src="./imagenes-proyecto/foto-cejas.png" alt="" class="col-lg-3 col-md-4 col-sm-9 col-10 p-3 fotoServicios">
+            <img src="./imagenes-proyecto/foto-pestanas.png" alt="" class="col-lg-3 col-md-4 col-sm-9 col-10 p-3 fotoServicios">
+            <img src="./imagenes-proyecto/foto-unas.png" alt="" class="col-lg-3 col-md-4 col-sm-9 col-10 p-3 fotoServicios">
+        </div>
+        <div class="row p-0d-flex flex-row justify-content-center">   
+        <img src="./imagenes-proyecto/foto-depilacion.png" alt="" class="col-lg-3 col-md-4 col-sm-9 col-10 p-3 fotoServicios">
+        <img src="./imagenes-proyecto/foto-peinado.png" alt="" class="col-lg-3 col-md-4 col-sm-9 col-10 p-3 fotoServicios">
+        </div>
+
+    </section>
+    <!-- footer -->
+    <footer class="footerContacto container-fluid pt-2" id="infoContacto">
         <h2 class="col-xs-12 tituloFooter d-flex justify-content-center py-2">Tenes alguna duda? Contactános!</h2>
         <div class="row d-flex justify-content-center">
             <div class="col-lg-4 col-md-5 col-xs-12 align-items-strech"> 
@@ -79,7 +81,7 @@
                 </form>
             </div>
             <div class="col-lg-4 col-md-6 col-12 cajaContacto1 footerContacto d-flex flex-column align-items-center">
-                 <div class="d-flex flex-row justify-content-center align-items-center">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
                     <div class="iconosRedes">
                         <img src="./imagenes-proyecto/facebook.png" alt="logo Facebook" class="icono1">    
                         <img src="./imagenes-proyecto/instagram.png" alt="logo Instagram" class="icono1">    
@@ -95,14 +97,14 @@
                     
                     </div> 
                         <h3 class="tituloHorarios">HORARIOS DE ATENCIÓN</h3>
-                        <ol class="horarios pl-0">
+                        <ol class="horarios pl-0 ">
                             <li>Lunes a Viernes- 9 a 12pm y 14 a 19pm</li>
                             <li>Sábados- 9 a 12pm</li>
                         </ol>
                     </div>
         </div>
         
-      </footer>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
